@@ -3,3 +3,6 @@ env/
 
 # ignore dataset
 dataset/
+
+# ignore model
+model_files/

@@ -10,7 +10,7 @@ from peft import PeftModel
 PREDICTION_WINDOW_MONTHS = [3, 6, 9, 12]  # Constant for this charge-off prediction task.
 
 
-def main(test_set_dir: str, results_dir: str, model_dir: str):
+def main(test_set_dir: str, results_dir: str):
     
     # Load test set data.
     input_df = pd.read_csv(os.path.join(test_set_dir, "inputs.csv"))
@@ -19,13 +19,14 @@ def main(test_set_dir: str, results_dir: str, model_dir: str):
     # START PROCESSING TEST SET INPUTS
 
     # Load the tokenizer and base model (ensure this matches the model used during training)
-    model_name = 'distilbert-base-uncased'  # Replace with your base model if different
+    model_name = 'hsp287/heart_attack_pred_bert' # Replace with your base model if different
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     # Load the model
     # load the base model first and then load the PEFT model (LoRA)
-    base_model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
-    model = PeftModel.from_pretrained(base_model, model_dir)
+    # currently LoRA model is not trained
+    model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
+    #model = PeftModel.from_pretrained(base_model, "")
 
     # Ensure the model is in evaluation mode
     model.eval()
