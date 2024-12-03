@@ -7,6 +7,9 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 # Import PeftModel if you used LoRA
 from peft import PeftModel
 
+PREDICTION_WINDOW_MONTHS = [3, 6, 9, 12]  # Constant for this charge-off prediction task.
+
+
 def main(test_set_dir: str, results_dir: str, model_dir: str):
     
     # Load test set data.
