@@ -19,14 +19,14 @@ def main(test_set_dir: str, results_dir: str):
     # START PROCESSING TEST SET INPUTS
 
     # Load the tokenizer and base model
-    model_name = 'hsp287/heart_attack_pred_bert'
+    model_name = 'hsp287/heart_attack_pred_bert_lora'
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     # Load the model
     # load the base model first and then load the PEFT model (LoRA)
     # currently LoRA model is not trained
-    model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
-    #model = PeftModel.from_pretrained(base_model, "")
+    base_model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
+    model = PeftModel.from_pretrained(base_model, model_name)
 
     # Ensure the model is in evaluation mode
     model.eval()
