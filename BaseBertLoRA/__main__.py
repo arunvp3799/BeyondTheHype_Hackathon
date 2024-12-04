@@ -71,41 +71,47 @@ def main(test_set_dir: str, results_dir: str):
         prompt += "Based on this information, is the patient at risk of a heart attack?"
 
         return prompt
+        
+    predictions = []
+    patients = list(input_df.PatientID)
 
-    # Apply the prompt creation function to the test data
-    prompts = input_df.apply(create_prompt, axis=1)
+    for idx, row in input_df.iterrows():
+        # Create the prompt for the current row
+        prompt = create_prompt(row)
 
-    # Tokenize the prompts
-    inputs = tokenizer(
-        list(prompts),
-        truncation=True,
-        padding=True,
-        max_length=128,
-        return_tensors='pt'
-    )
+        # Tokenize the prompt
+        inputs = tokenizer(
+            prompt,
+            truncation=True,
+            padding=True,
+            max_length=128,
+            return_tensors='pt'
+        )
 
-    # Move inputs to device
-    inputs = {key: val.to(device) for key, val in inputs.items()}
+        # Move inputs to device
+        inputs = {key: val.to(device) for key, val in inputs.items()}
 
-    # Run the model to get predictions
-    with torch.no_grad():
-        outputs = model(**inputs)
+        # Run the model and get the prediction
+        with torch.no_grad():
+            output = model(**inputs)
 
-    # Get predicted probabilities and labels
-    logits = outputs.logits
-    probs = torch.softmax(logits, dim=1)
-    predictions = torch.argmax(probs, dim=1)
+        # Get the predicted label
+        logits = output.logits
+        probs = torch.softmax(logits, dim=1)
+        prediction = torch.argmax(probs, dim=1).item()
 
-    # Prepare the output dataframe
-    output_df = pd.DataFrame({
-        'PatientID': input_df['PatientID'],
-        'HadHeartAttack': predictions.cpu().numpy()
-    })
+        # Append the prediction to the list
+        predictions.append(prediction)
+
+    output_df = pd.DataFrame(columns=["PatientID", "HadHeartAttack"])
+    output_df["PatientID"] = patients
+    output_df["HadHeartAttack"] = predictions.cpu().numpy()
 
     # END PROCESSING TEST SET INPUTS
     # ---------------------------------
 
     # Save the results as "results.csv" in the specified directory
+    print(f"Saving to {results_dir}.")
     output_df.to_csv(os.path.join(results_dir, "results.csv"), index=False)
 
 
@@ -121,12 +127,5 @@ if __name__ == "__main__":
         type=str,
         required=True
     )
-    parser.add_argument(
-        "--model_dir",
-        type=str,
-        required=True,
-        help="Path to the directory containing the trained model"
-    )
-
     args = parser.parse_args()
-    main(args.bth_test_set, args.bth_results, args.model_dir)
+    main(args.bth_test_set, args.bth_results)

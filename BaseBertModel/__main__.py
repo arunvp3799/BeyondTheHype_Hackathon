@@ -72,35 +72,40 @@ def main(test_set_dir: str, results_dir: str):
 
         return prompt
 
-    # Apply the prompt creation function to the test data
-    prompts = input_df.apply(create_prompt, axis=1)
+    predictions = []
+    patients = list(input_df.PatientID)
 
-    # Tokenize the prompts
-    inputs = tokenizer(
-        list(prompts),
-        truncation=True,
-        padding=True,
-        max_length=128,
-        return_tensors='pt'
-    )
+    for idx, row in input_df.iterrows():
+        # Create the prompt for the current row
+        prompt = create_prompt(row)
 
-    # Move inputs to device
-    inputs = {key: val.to(device) for key, val in inputs.items()}
+        # Tokenize the prompt
+        inputs = tokenizer(
+            prompt,
+            truncation=True,
+            padding=True,
+            max_length=128,
+            return_tensors='pt'
+        )
 
-    # Run the model to get predictions
-    with torch.no_grad():
-        outputs = model(**inputs)
+        # Move inputs to device
+        inputs = {key: val.to(device) for key, val in inputs.items()}
 
-    # Get predicted probabilities and labels
-    logits = outputs.logits
-    probs = torch.softmax(logits, dim=1)
-    predictions = torch.argmax(probs, dim=1)
+        # Run the model and get the prediction
+        with torch.no_grad():
+            output = model(**inputs)
 
-    # Prepare the output dataframe
-    output_df = pd.DataFrame({
-        'PatientID': input_df['PatientID'],
-        'HadHeartAttack': predictions.cpu().numpy()
-    })
+        # Get the predicted label
+        logits = output.logits
+        probs = torch.softmax(logits, dim=1)
+        prediction = torch.argmax(probs, dim=1).item()
+
+        # Append the prediction to the list
+        predictions.append(prediction)
+
+    output_df = pd.DataFrame(columns=["PatientID", "HadHeartAttack"])
+    output_df["PatientID"] = patients
+    output_df["HadHeartAttack"] = predictions.cpu().numpy()
 
     # END PROCESSING TEST SET INPUTS
     # ---------------------------------
