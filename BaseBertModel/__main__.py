@@ -121,12 +121,6 @@ if __name__ == "__main__":
         type=str,
         required=True
     )
-    parser.add_argument(
-        "--model_dir",
-        type=str,
-        required=True,
-        help="Path to the directory containing the trained model"
-    )
 
     args = parser.parse_args()
-    main(args.bth_test_set, args.bth_results, args.model_dir)
+    main(args.bth_test_set, args.bth_results)
