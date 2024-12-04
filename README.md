@@ -14,6 +14,7 @@ This study highlights the potential of leveraging natural language processing mo
 
 ## Results
 Teal (Fine-tuned DistilBERT), Purple (LoRA-tuned DistilBERT)
+
 We achieve a higher F1 score using the LoRA-tuned model; however, the performance is still quite poor.
 
 <img src="metrics.PNG" width="100%" margin-left="auto" margin-right="auto">
