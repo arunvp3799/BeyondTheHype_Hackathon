@@ -11,3 +11,7 @@ We tested two approaches:
 2. Applying Low-Rank Adaptation (LoRA) by freezing the base model and fine-tuning low-rank parameters.
    
 This study highlights the potential of leveraging natural language processing models for structured healthcare data analysis and risk prediction.
+
+## Results
+Teal (Fine-tuned DistilBERT), Purple (LoRA-tuned DistilBERT)
+<img src="metrics.png" width="50%" margin-left="auto" margin-right="auto">
