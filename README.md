@@ -14,4 +14,5 @@ This study highlights the potential of leveraging natural language processing mo
 
 ## Results
 Teal (Fine-tuned DistilBERT), Purple (LoRA-tuned DistilBERT)
-<img src="metrics.png" width="50%" margin-left="auto" margin-right="auto">
+
+<img src="metrics.PNG" width="100%" margin-left="auto" margin-right="auto">
