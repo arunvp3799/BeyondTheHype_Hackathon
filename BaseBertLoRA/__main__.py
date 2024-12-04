@@ -25,7 +25,7 @@ def main(test_set_dir: str, results_dir: str):
     # Load the model
     # load the base model first and then load the PEFT model (LoRA)
     # currently LoRA model is not trained
-    base_model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)
+    base_model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=2)
     model = PeftModel.from_pretrained(base_model, model_name)
 
     # Ensure the model is in evaluation mode
