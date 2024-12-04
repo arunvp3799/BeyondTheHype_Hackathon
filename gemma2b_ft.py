@@ -128,7 +128,7 @@ def train():
             save_strategy="epoch",
         ),
         data_collator=transformers.DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False),
-        format_function=generate_prompt,
+        formatting_func=generate_prompt,
     )
 
     trainer.train()
