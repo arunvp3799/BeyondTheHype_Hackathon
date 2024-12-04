@@ -10,7 +10,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
 
 def load_bnb_model():
-    os.environ["HF_TOKEN"] = "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"
+    os.environ["HF_TOKEN"] = "HF_TOKEN"
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,

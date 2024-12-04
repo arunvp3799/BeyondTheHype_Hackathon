@@ -1,0 +1,601 @@
+true,pred
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 23.69, weighing 62.60 kg and standing 1.63 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 31.65, weighing 117.93 kg and standing 1.93 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 24.34, weighing 90.72 kg and standing 1.93 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 23.44, weighing 54.43 kg and standing 1.52 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.18, weighing 71.21 kg and standing 1.75 meters tall. The patient did not have angina, had a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 35.15, weighing 81.65 kg and standing 1.52 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 46.59, weighing 127.01 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She has difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 39.11, weighing 106.59 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and has difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 40.69, weighing 136.08 kg and standing 1.83 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 28.35, weighing 70.31 kg and standing 1.57 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 29.18, weighing 77.11 kg and standing 1.63 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 33.37, weighing 102.51 kg and standing 1.75 meters tall. The patient had angina, did not have a stroke, did not have COPD, had kidney disease, and had a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 29.99, weighing 97.52 kg and standing 1.80 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 38.39, weighing 117.93 kg and standing 1.75 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 22.60, weighing 63.50 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 34.20, weighing 84.82 kg and standing 1.57 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 34.33, weighing 90.72 kg and standing 1.63 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 19.37, weighing 54.43 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 22.22, weighing 49.90 kg and standing 1.50 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.76, weighing 78.02 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 19.37, weighing 70.31 kg and standing 1.91 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 23.73, weighing 66.68 kg and standing 1.68 meters tall. The patient had angina, did not have a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 25.15, weighing 64.41 kg and standing 1.60 meters tall. The patient did not have angina, did not have a stroke, had COPD, had kidney disease, and had a depressive disorder. She has difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 35.44, weighing 108.86 kg and standing 1.75 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, had kidney disease, and had a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.33, weighing 78.02 kg and standing 1.83 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 28.29, weighing 77.11 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.53, weighing 92.08 kg and standing 1.83 meters tall. The patient had angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 46.87, weighing 108.86 kg and standing 1.52 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.75, weighing 86.18 kg and standing 1.91 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 21.63, weighing 58.97 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 35.35, weighing 99.34 kg and standing 1.68 meters tall. The patient had angina, did not have a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.89, weighing 90.72 kg and standing 1.80 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 38.26, weighing 131.54 kg and standing 1.85 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 25.25, weighing 56.70 kg and standing 1.50 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 34.44, weighing 108.86 kg and standing 1.78 meters tall. The patient did not have angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 24.56, weighing 58.97 kg and standing 1.55 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 29.95, weighing 81.65 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 30.85, weighing 97.52 kg and standing 1.78 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 26.54, weighing 83.91 kg and standing 1.78 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.12, weighing 90.72 kg and standing 1.83 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, had kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 33.96, weighing 104.33 kg and standing 1.75 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 27.44, weighing 77.11 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 53.56, weighing 184.16 kg and standing 1.85 meters tall. The patient had angina, did not have a stroke, had COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 32.69, weighing 97.52 kg and standing 1.73 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and has difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 24.41, weighing 81.65 kg and standing 1.83 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 31.44, weighing 73.03 kg and standing 1.52 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 24.62, weighing 63.05 kg and standing 1.60 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 27.46, weighing 72.57 kg and standing 1.63 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 25.86, weighing 66.22 kg and standing 1.60 meters tall. The patient did not have angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 26.63, weighing 77.11 kg and standing 1.70 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 28.48, weighing 95.25 kg and standing 1.83 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 33.47, weighing 108.86 kg and standing 1.80 meters tall. The patient had angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.98, weighing 88.45 kg and standing 1.78 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 22.60, weighing 63.50 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.11, weighing 81.65 kg and standing 1.88 meters tall. The patient had angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 29.76, weighing 113.85 kg and standing 1.96 meters tall. The patient had angina, did not have a stroke, had COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 26.32, weighing 92.99 kg and standing 1.88 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 44.40, weighing 106.59 kg and standing 1.55 meters tall. The patient had angina, did not have a stroke, had COPD, had kidney disease, and had a depressive disorder. She has difficulty walking and has difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 33.00, weighing 104.33 kg and standing 1.78 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 25.68, weighing 90.72 kg and standing 1.88 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.30, weighing 63.50 kg and standing 1.65 meters tall. The patient did not have angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 25.66, weighing 83.46 kg and standing 1.80 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 28.74, weighing 85.73 kg and standing 1.73 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 38.01, weighing 113.40 kg and standing 1.73 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 31.01, weighing 95.25 kg and standing 1.75 meters tall. The patient had angina, did not have a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 23.40, weighing 65.77 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 26.63, weighing 77.11 kg and standing 1.70 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 29.05, weighing 81.65 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 22.63, weighing 61.69 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 22.14, weighing 56.70 kg and standing 1.60 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 26.57, weighing 68.04 kg and standing 1.60 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 17.17, weighing 38.56 kg and standing 1.50 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 21.97, weighing 56.25 kg and standing 1.60 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 32.93, weighing 129.27 kg and standing 1.98 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 38.02, weighing 120.20 kg and standing 1.78 meters tall. The patient had angina, did not have a stroke, had COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 30.04, weighing 79.38 kg and standing 1.63 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 32.95, weighing 89.81 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 25.85, weighing 58.06 kg and standing 1.50 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, had kidney disease, and had a depressive disorder. She has difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 33.45, weighing 99.79 kg and standing 1.73 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 28.35, weighing 82.10 kg and standing 1.70 meters tall. The patient did not have angina, did not have a stroke, had COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 34.75, weighing 86.18 kg and standing 1.57 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 27.46, weighing 72.57 kg and standing 1.63 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.01, weighing 74.84 kg and standing 1.80 meters tall. The patient had angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 30.52, weighing 102.06 kg and standing 1.83 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 20.98, weighing 58.97 kg and standing 1.68 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and has difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and has difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 33.13, weighing 113.40 kg and standing 1.85 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and has difficulty completing errands alone. The patient drinks alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, is blind or has vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 20.97, weighing 64.41 kg and standing 1.75 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient did not have arthritis, has been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 33.20, weighing 96.16 kg and standing 1.70 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and had a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. She did not have a chest scan and was considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 30.23, weighing 72.57 kg and standing 1.55 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 29.03, weighing 99.79 kg and standing 1.85 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 32.08, weighing 104.33 kg and standing 1.80 meters tall. The patient had angina, did not have a stroke, had COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 23.75, weighing 81.65 kg and standing 1.85 meters tall. The patient had angina, did not have a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He did not have a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 18.64, weighing 50.80 kg and standing 1.65 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She did not have a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, had asthma, and has difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 24.03, weighing 52.16 kg and standing 1.47 meters tall. The patient did not have angina, had a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 25.69, weighing 65.77 kg and standing 1.60 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 41.87, weighing 151.95 kg and standing 1.91 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient had arthritis, has been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 29.29, weighing 95.25 kg and standing 1.80 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 36.44, weighing 99.34 kg and standing 1.65 meters tall. The patient had angina, had a stroke, did not have COPD, had kidney disease, and did not have a depressive disorder. She has difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, did not have asthma, and has difficulty concentrating. The patient had skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has not received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient did not receive a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient does have"
+yes,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a male with a BMI of 21.41, weighing 65.77 kg and standing 1.75 meters tall. The patient did not have angina, did not have a stroke, did not have COPD, did not have kidney disease, and did not have a depressive disorder. He does not have difficulty walking and does not have difficulty completing errands alone. The patient drinks alcohol. He had a chest scan and was not considered high risk last year. The patient did not have arthritis, has not been tested for HIV, did not have asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient did not test positive for COVID-19, has received the pneumococcal vaccine, and is deaf or hard of hearing. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model yes The patient has heart"
+no,"user Below is a patient report text that contains the information about patient's health confitions, it is followed up by a question. Answer the question as 'yes' or 'no'. 
+ <text>:
+ The patient is a female with a BMI of 31.38, weighing 102.06 kg and standing 1.80 meters tall. The patient had angina, did not have a stroke, had COPD, did not have kidney disease, and did not have a depressive disorder. She does not have difficulty walking and does not have difficulty completing errands alone. The patient does not drink alcohol. She had a chest scan and was not considered high risk last year. The patient had arthritis, has not been tested for HIV, had asthma, and does not have difficulty concentrating. The patient did not have skin cancer, does not have vision difficulties, and does not have difficulty dressing or bathing. The patient tested positive for COVID-19, has received the pneumococcal vaccine, and does not have hearing difficulties. Additionally, the patient received a flu vaccine in the last 12 months. Does this patient have heart disease? 
+<end_of_text>
+ 
+model no The patient does not"
