@@ -13,7 +13,7 @@ We tested two approaches:
 This study highlights the potential of leveraging natural language processing models for structured healthcare data analysis and risk prediction.
 
 ## Results
-Teal (Fine-tuned DistilBERT), Purple (LoRA-tuned DistilBERT)
+Purple (Fine-tuned DistilBERT), Teal (LoRA-tuned DistilBERT)
 
 We achieve a higher F1 score using the LoRA-tuned model; however, the performance is still quite poor.
 
